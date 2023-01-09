@@ -1,0 +1,103 @@
+:root {
+	--fonte-principal: 'Pacifico', cursive;
+	--fonte-secundaria: 'Sevillana', cursive;
+	--fonte-rodape: 'Opens Sans', sans-serif;
+	--branco: #FFFFFF;
+	--cinza: #808080;
+	--cor-titulos: #363636;
+	--primeiro-botao: #B22222;
+	--rodape: #F5DEB3;
+	--segundo-botao: #4169E1;
+	--preto: #000000;
+	--vermelho: #DC143C;
+
+}
+
+.formulario {
+	margin: 2rem 0;
+	padding: 0 15px;
+}
+
+.formulario__nome {
+	display: block;
+	font-size: 1.2rem;
+	margin-bottom: 5px;
+}
+
+.formulario__tipo {
+	height: 22px;
+	margin-bottom: 1.6rem;
+	width: 70%;
+}
+
+.formulario__mensagem {
+	height: 90px;
+	margin-bottom: 1.6rem;
+	width: 70%;
+}
+
+
+.formulario__contato {
+	display: block;
+	line-height: 20px;
+}
+
+.formulario__nome:nth-child(5) {
+	margin-top: 20px;
+}
+
+select {
+	display: block;
+}
+
+.caixa {
+	margin: 20px 0;
+}
+
+.enviar {
+	background-color: var(--segundo-botao);
+	border: none;
+	border-radius: 15px;
+	color: var(--branco);
+	display: block;
+	margin-top: 15px;
+	padding: 15px 0;
+	width: 70%;
+}
+
+.enviar:hover {
+	background-color: darkblue;
+	padding: 20px 0;
+	transition: 1s;
+}
+
+table {
+	margin: 0 0 45px 15px;
+}
+
+th {
+	color: var(--branco);
+	background: var(--cinza);
+	border: 1px solid var(--preto);
+	padding: 10px;
+}
+
+td {
+	border: 1px solid var(--preto);
+	padding: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+
+	.formulario__tipo {
+		height: 40px;
+	}
+
+	.formulario__mensagem {
+		height: 120px;
+	}
+
+	.enviar {
+		width: 40%;
+	}
+}

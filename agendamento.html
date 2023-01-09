@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Acampamento Midgard</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="./assets/style/reset.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+		<link rel="stylesheet" href="./assets/style/style.css">
+		<link rel="stylesheet" href="./assets/style/faccoes.css">
+		<link rel="stylesheet" href="./assets/style/responsivo.css">
+		<link rel="stylesheet" href="./assets/style/agendamento.css">
+	</head>
+
+	<body>
+		<header class="cabecalho">
+			<div>
+				<img src="./assets/img/44117.png" class="cabecalho__imagem">
+			</div>
+			<div class="cabecalho__links">
+				<nav>
+					<ul class="cabecalho__lista">
+						<li><a href="index.html" class="cabecalho__link">Home</a></li>
+						<li><a href="faccoes.html" class="cabecalho__link">Facções</a></li>
+						<li><a href="agendamento.html" class="cabecalho__link">Agendamento</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<h1 class="titulo-principal">Acampamento Midgard</h1>
+			<section class="formulario">
+				<form class="formularios">
+					<div>
+						<label for="nome" class="formulario__nome">Nome e Sobrenome<b>*</b></label>
+						<input type="name" id="nome e sobrenome" class="formulario__tipo">
+
+						<label for="email" class="formulario__nome">E-mail<b>*</b></label>
+						<input type="email" id="email" placeholder="seuemail@dominio.com" class="formulario__tipo">
+
+						<label for="telefone" class="formulario__nome">Telefone<b>*</b></label>
+						<input type="tel" id="telefone" placeholder="(XX) XXXXX-XXXX" class="formulario__tipo">
+
+						<label for="mensagem" class="formulario__nome">Mensagem</label>
+						<textarea cols="50" rows="10" id="mensagem" class="formulario__mensagem"></textarea>
+					</div>
+
+					<fieldset>
+						<legend class="formulario__nome">Por qual meio gostaria de ser contatado Milord/Miladie?</legend>
+						<label for="radio-email" class="formulario__contato"><input type="radio" name="contato" value="email" id="radio-email">E-mail</label>
+						<label for="radio-telefone" class="formulario__contato"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+						<label for="radio-whatsapp" class="formulario__contato"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+
+						<label class="formulario__nome">Se interessa por qual horário?</label>
+						<select>
+							<option>Café da manhã</option>
+							<option>Almoço</option>
+							<option>Janta</option>
+						</select>
+					</fieldset>
+
+					<label><input type="checkbox" checked class="caixa">Gostaria de receber nossas novidades por e-mail?</label>
+
+					<input type="submit" value="Enviar" class="enviar">
+				</form>
+			</section>
+
+				<table>
+				<thead>
+					<th>Dia</th>
+					<th>Início</th>
+					<th>Término</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Ter./Qui.</td>
+						<td>9h</td>
+						<td>22h</td>
+					</tr>
+					<tr>
+						<td>Sex.Sáb.</td>
+						<td>9h</td>
+						<td>00h</td>
+					</tr>
+					<tr>
+						<td>Dom./Feri.</td>
+						<td>10h</td>
+						<td>20h</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<footer class="rodape">
+			<p class="rodape__texto">O Acampamento Midgard é um sonho realizado por amantes da idade média que decidiram firmar um pacto para expandir e compartilhar tal paixão com outros amantes do tema.</p>
+			<div class="rodape__icones">
+				<img src="./assets/img/icone1.png" class="rodape__imagem">
+				<img src="./assets/img/icone2.png" class="rodape__imagem">
+				<img src="./assets/img/icone3.png" class="rodape__imagem">
+			</div>
+			<hr/>
+			<div class="rodape__contato">
+				<p class="rodape__contato-texto">Tel: (19) 2221-7839</p>
+				<p class="rodape__contato-texto">E-mail: acampamentomidgard@gmail.com</p>
+				<p class="rodape__contato-texto-final">&copy; Acampamento Midgard</p>
+			</div>
+		</footer>
+		</main>
+
+	</body>
+	</html>

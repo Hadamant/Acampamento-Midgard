@@ -1,0 +1,194 @@
+@media screen and (min-width: 768px) {
+
+	.cabecalho__imagem {
+		display: block;
+		margin-right: 50px;
+		width: 150px;
+	}
+
+	.cabecalho__link {
+		font-size: 2.5rem;
+	}
+
+	.titulo-principal {
+		font-size: 4.5rem;
+	}
+
+	.introducao__titulo, .atividades__titulo {
+		font-size: 3.5rem;
+		text-align: center;
+	}
+
+	.atividades__titulos {
+		font-size: 2.5rem;
+	}
+
+	.introducao__imagem {
+		width: 180px;
+	}
+
+	.introducao__texto {
+		font-size: 2rem;
+		margin: 2rem 0;
+	}
+
+	.atividades__imagem {
+		width: 50%;
+	}
+
+	.atividades__texto {
+		font-size: 2rem;
+		line-height: 2.5rem;
+	}
+
+	.secao-final__imagem {
+		height: 250px;
+	}
+
+	.secao-final__texto {
+		font-size: 2rem;
+		line-height: 2.1rem;
+	}
+
+	.texto-final {
+		font-size: 3rem;
+		line-height: 4rem;
+	}
+
+	.video {
+		margin: 0 auto 3rem auto;
+		width: 80%;
+	}
+
+}
+
+@media screen and (min-width: 1024px) {
+
+	.titulo-principal {
+		font-size: 5.5rem;
+		height: 60vh;
+	}
+
+	.introducao__imagem {
+		width: 230px;
+	}
+
+	.introducao__texto {
+		font-size: 2.4rem;
+		line-height: 3.2rem;
+		padding: 0 50px;
+	}
+
+	.atividades {
+		margin: 0 10px;
+	}
+
+	.atividades__lista {
+		align-items: center;
+		column-gap: 10px;
+		display: flex;
+		flex-wrap: wrap;
+		vertical-align: top;
+	}
+
+	.atividades__item {
+		width: calc(50% - 10px);
+	}
+
+	.atividades__titulos {
+		font-size: 2rem;
+	}
+
+	.atividades__imagem {
+		width: 400px;
+	}
+
+	.atividades__texto {
+		font-size: 2rem;
+		padding: 0 10px;
+	}
+
+	.atividades__divisao img {
+		display: none;
+	}
+
+	.fotos {
+		margin: 0 auto 5rem auto;
+		width: 50%;
+	}
+
+	.secao-final {
+		margin: 2rem auto;
+		width: 90%;
+	}
+
+	.secao-final__divisao {
+		align-items: center;
+		column-gap: 30px;
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+
+	}
+
+	.secao-final__simbolo {
+		display: block;
+		width: 220px;
+	}
+
+	.texto-final {
+		font-size: 4rem;
+	}
+
+	.video {
+		width: 50%;
+	}
+
+	.fim {
+		align-items: center;
+		display: flex;
+		padding: 0 100px
+	}
+
+	.fim img {
+		display: block;
+		width: 220px;
+	}
+
+
+}
+
+@media screen and (min-width: 1728px) {
+
+	.cabecalho__imagem {
+		width: 250px;
+	}
+
+	.cabecalho__link {
+		font-size: 4.4rem;
+		margin-right: 70px;
+	}
+
+	.titulo-principal {
+		font-size: 8rem;
+		height: 80vh;
+	}
+
+	.secao-final__texto {
+		font-size: 2.5rem;
+		line-height: 2.6rem;
+		padding: 20px;
+	}
+
+	.secao-final__simbolo {
+		width: 250px;
+	}
+
+	.video {
+		width: 40%;
+	}
+
+	.fim img {
+		width: 250px;
+	}
+}
